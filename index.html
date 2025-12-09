@@ -16,6 +16,8 @@
           document.querySelector("img").src = data.image;
         }
 
+        const token = "usk_IgfR4o-UishvxlrABkIGFj2vV4HieS5VOnK2VVoCgGI_a0443613-0604-43fd-9005-88610da77297"
+
         const getDog = async () => {
           const response = await fetch("https://dog.ceo/api/breeds/image/random");
           const data = await response.json();
